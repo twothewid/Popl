@@ -19,13 +19,13 @@ namespace ConsoleApp
            {
                try
                {
-                   /*string url = "https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe";
+                   string url = "https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe";
                    string filename = Path.GetFileName(url);
                    string destinationpath = Path.Combine(Directory.GetCurrentDirectory(), filename);
 
                    WebClient eb = new WebClient();
                    eb.DownloadFile(url, destinationpath);
-                   System.Diagnostics.Process.Start(destinationpath);*/
+                   System.Diagnostics.Process.Start(destinationpath);
                    
                    System.Diagnostics.Process.Start("http://google.com");
                }
